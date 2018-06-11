@@ -1,0 +1,12 @@
+@import '~styles/all.scss';
+
+@import '/form/form.scss';
+@import '/map/map.scss';
+@import '/production/production.scss';
+@import '/examples/examples.scss';
+@import './title-screen/title-screen.scss';
+
+.big-hero {
+  background: url('/assets/img/bg2.png');
+  background-size: cover;
+}

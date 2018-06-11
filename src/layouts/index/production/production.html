@@ -1,0 +1,38 @@
+<% if (data) { %>
+
+<section class="page-section production">
+
+    <div class="ui container">
+        <header class="content">
+            <h2><%- data.header %></h2>
+            <p><%- data.caption %></p>
+        </header>
+
+        <h3 class="subheader"><%-data.subheader %></h3>
+
+        <div class="ui stackable doubling grid two columns">
+            <% for (var i=0; i<data.services.length; i++) { %>
+
+            <div class='column'>
+                <figure class="toggle">
+                    <div class="arrow"></div>
+                    <figcaption>
+                        <h3><%- data.services[i].service.name %></h3>
+                        <strong><%- data.services[i].service.price %></strong>
+                        <p><%- data.services[i].service.caption%></p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <% } %>
+        </div>
+
+        <p><%- data.caption2 %></p>
+        <a class="ui button" href="#Form"> Оставить заявку</a>
+
+
+    </div>
+
+</section>
+
+<% } %>

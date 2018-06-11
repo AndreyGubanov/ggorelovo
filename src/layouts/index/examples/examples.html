@@ -1,0 +1,52 @@
+<section class="page-section examples" id="examples">
+    <div class="ui container">
+
+        <div class="title">
+            <h2><%- data.title %></h2>
+            <p><%- data.caption %></p>
+        </div>
+    </div>
+
+
+    <div id="Glide" class="glide">
+
+        <!-- Wrapper -->
+        <div class="glide__wrapper">
+            <ul class="glide__track">
+
+
+                <% data.examples.forEach(function(item) {%>
+
+                <!-- Item -->
+                <li class="glide__slide">
+                    <div class="ui container very relaxed stackable grid">
+                        <div class="six wide column">
+                            <h2><%- item.example.title %></h2>
+                            <h4 class="color-green">Цена: <span><%- item.example.price %></span></h4>
+                            <p><%- item.example.caption %></p>
+                        </div>
+                        <div class="ten wide column">
+                            <div class="image-wrapper">
+                                <img class="ui image" src="/assets/img/examples/<%- item.example.image %>" alt="<%- item.example.title%>"/>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <% }); %>
+
+            </ul>
+        </div>
+
+
+
+        <!-- Arrows -->
+        <div class="ui container very relaxed grid arrows">
+            <div class="glide__arrows six wide column">
+                <button class="glide__arrow prev" data-glide-dir="<"></button>
+                <strong class="uppercase"><strong id="currentSlide">1</strong> из <strong id="totalSlides"></strong></strong>
+                <button class="glide__arrow next" data-glide-dir=">"></button>
+            </div>
+        </div>
+    </div>
+</section>

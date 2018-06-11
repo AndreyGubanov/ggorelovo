@@ -1,0 +1,45 @@
+.ui.button {
+
+  font-family: "AvenirNextW1G";
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  border-radius: $button-border-radius;
+
+  background: transparent;
+  color: $color-text;
+  border: 0.1rem solid $color-accent;
+  transition: $default-transition;
+
+  //hover
+  &:hover {
+    color: $color-text;
+    background: transparent;
+
+    opacity: .75;
+  }
+
+  &:focus {
+    color: white;
+    background: transparent;
+  }
+
+  &:active {
+    color: white;
+    background: transparent;
+
+    transform: scale(0.995);
+  }
+
+
+  //Color mods
+  &.gray {
+    border: 0.1rem solid $color-gray;
+  }
+
+  &.white {
+    border: 0.1rem solid $color-white;
+  }
+
+
+}

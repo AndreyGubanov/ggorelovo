@@ -1,0 +1,45 @@
+<% if (data) { %>
+    <section class="page-section form" id="Form">
+        <div class="ui container">
+
+            <header class="content">
+
+                <h2><%- data.header %></h2>
+
+                <% for (var i=0;i<data.paragraphs.length;i++) {%>
+                    <p><%- data.paragraphs[i].paragraph %></p>
+                <% } %>
+
+            </header>
+
+            <div class="form-container">
+                <form id="#requestForm" name="requestForm" action="https://getsimpleform.com/messages?form_api_token=e9c14ab28c966c43e1604927d93ec1cb" method="post"class="ui form">
+                    <div class="liquid field">
+                        <!--<label>Ваше имя</label>-->
+                        <div class="ui input">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                    </div>
+                    <div class="liquid field">
+                        <!--<label>Телефон</label>-->
+                        <div class="ui input">
+                            <input type="phone" autocomplete="tel-national" name="phone" placeholder="Ваш номер телефона" required>
+                        </div>
+                    </div>
+
+                    <div class="liquid field">
+                        <!--<label>Описание</label>-->
+                        <div class="ui input">
+                            <textarea name="request" placeholder="Описание вашего заказа" required></textarea>
+                        </div>
+                    </div>
+
+                    <button class="ui button" id="#formSubmit" type="submit" value="Submit">Оставить заявку</button>
+
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+<% } %>

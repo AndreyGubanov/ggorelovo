@@ -1,0 +1,37 @@
+<header class="ui fixed menu" id="pageHeader">
+
+
+  <!-- Logo -->
+  <div class="fitted item logo">
+    <a class="fitted item" href="/">
+      <img src="/assets/img/gibka.svg" alt="<%- site.title %>"/>
+      <div>
+        <h4><%- site.title %></h4>
+        <small class="uppercase">Изделия из листового металла</small>
+      </div>
+    </a>
+  </div>
+
+  <!-- Navigation -->
+  <div class="item navigation">
+    <nav class="ui horizontal list">
+      <% site.navigationMenu.forEach(function(item) {%>
+        <a href="<%- item.link %>" class="link item uppercase"><%- item.name %></a>
+      <% }); %>
+
+    </nav>
+  </div>
+
+  <div class="item right floated phone-number">
+    <div class="ui label">
+      <strong>
+        <a href="https://api.whatsapp.com/send?phone=79533675451"><%- site.phone %></a>
+      </strong><i class="phone medium icon"></i>
+    </div>
+  </div>
+
+</header>
+
+<div id="mobileHeader" class="ui modal">
+
+</div>
