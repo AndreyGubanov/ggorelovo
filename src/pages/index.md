@@ -1,5 +1,5 @@
 ---
-title: Iodine Project
+title: Гибка горелово
 layout: index.html
 
 big_hero:
@@ -16,7 +16,7 @@ features:
     - feature:
         icon: './../../assets/img/icons/person.svg'
         title: 'Индивидуальный подход'
-        caption: 'Постоянное поддержание связи с клиентом для достижения наилучшего результата.'
+        caption: 'Постоянное поддержание связи с клиентом для достижения наилучшего результата'
     - feature:
         icon: './../../assets/img/icons/van.svg'
         title: 'Доставка в удобное время'
@@ -27,53 +27,76 @@ production:
     subheader: 'Популярные услуги'
     services:
         - service:
-            name: 'Отливы'
-            price: 'от 400 ₽ за 1м²'
-            caption: 'Изделия, которые служат для отведения сточных вод с крыш домов и выведения потока в резервуар или на открытую местность.'
+            title: 'Доборные элементы'
+            description: 'Доборные элементы для окон, витражных конструкций, фасадов и кровли'
+            list:
+                - item:
+                    name: 'Отливы'
+                    link: '/dobornye-elementy/otlivy'
+                - item:
+                    name: 'Фасонные элементы'
+                    link: '/dobornye-elementy/fasonnye-elementy'
+                - item:
+                    name: 'Гибка металла'
+                    link: '/dobornye-elementy/gibka-metalla'
+                - item:
+                    name: 'Парапеты'
+                    link: '/dobornye-elementy/parapety'
+                - item:
+                    name: 'Откосы'
+                    link: '/dobornye-elementy/otkosy'
         - service:
-            name: 'Фасонные элементы'
-            price: 'от 400 ₽ за 1м²'
-            caption: 'Металлические ланки разных конфигураций и назначения.'
+            title: 'Металлоконструкции для забора'
+            description: 'Материалы для строительства заборов'
+            list:
+                - item:
+                    name: 'Планки'
+                    link: '/metallokonstuktsii-dlya-zabora/planki-dlya-zabora'
+                - item:
+                    name: 'Колпаки'
+                    link: '/metallokonstuktsii-dlya-zabora/kolpaki-dlya-zabora'
+                - item:
+                    name: 'Парапеты'
+                    link: '/metallokonstuktsii-dlya-zabora/parapety-dlya-zabora'
+                - item:
+                    name: 'Штакетник'
+                    link: '/metallokonstuktsii-dlya-zabora/shtaketnyk-dlya-zabora'
         - service:
-            name: 'Планки для забора'
-            price: 'от 400 ₽ за 1м²'
-            caption: 'Конструкции, обеспечивающие изоляцию забора от коррозии.'
+            title: 'Вентиляция и дымоход'
+            description: 'Изделия для отвода дыма и вентиляции'
+            list:
+                - item:
+                    name: 'Вытяжные зонты'
+                    link: '/ventilyatsiya-i-dymohod/vytyazhnye-zonty'
+                - item:
+                    name: 'Выход вентиляции'
+                    link: '/ventilyatsiya-i-dymohod/vyhod-ventilyatsii'
+                - item:
+                    name: 'Дымник (колпак на трубу)'
+                    link: '/ventilyatsiya-i-dymohod/dymnik'
         - service:
-            name: 'Коробы для вытяжки'
-            price: 'от 1 300 ₽ за шт.'
-            caption: 'Декоративные элементы, скрывающие трубы для вытяжки.'
+            title: 'Мягкая кровля и сайдинг'
+            description: 'Структурные элементы кровли и внешняя облицовка строений'
+            list:
+                - item:
+                    name: 'Т-образные планки'
+                    link: '/myagkaya-krovlya-i-saiding/t-obraznye-planki'
+                - item:
+                    name: 'X-образные планки'
+                    link: '/myagkaya-krovlya-i-saiding/x-obraznye-planki'
+                - item:
+                    name: 'Планки для мягкой кровли'
+                    link: '/myagkaya-krovlya-i-saiding/planki-dlya-myagkoy-krovli'
         - service:
-            name: 'Металлосайдинг'
-            price: 'от 400 ₽ за 1м²'
-            caption: 'Металлические планки для отделки фасада.'
-        - service:
-            name: 'Планки для мягкой кровли'
-            price: 'от 1 200 ₽ за шт.'
-            caption: 'Монтируются на кровельный карниз, закрывая лобовую доску из древесины и опорную часть стропильной системы. Служат для защиты закрываемых элементов от воздействия влаги и перенаправляют водяные потоки в водосточные желоба.'
-        - service:
-            name: 'Вытяжные зонты'
-            price: 'от 1 000 ₽ за шт.'
-            caption: 'Применяется для удаления летучих веществ, которые могут выделяться, например, при различных процессах в промышленном производстве.'
-        - service:
-            name: 'Выход вентиляции'
-            price: 'от 1 000 ₽ за шт.'
-            caption: 'Вывод вентиляции из дома на улицу.'
-        - service:
-            name: 'Колпаки для дымохода'
-            price: 'от 900 ₽ за шт.'
-            caption: 'Служит искрогасителями при растопленной печи, предотвращают попадание в дымоходы мусора и проникновение птиц.'
-        - service:
-            name: 'Колпаки для забора'
-            price: 'от 500 ₽ за шт.'
-            caption: 'Декоративные элементы для заборных столбов.'
-        - service:
-            name: 'Парапеты'
-            price: 'от 1000 ₽ за 1м²'
-            caption: 'Парапеты кровли и лоджии предназначены для защиты кирпичной кладки от дождя и снега. Кроме того, качественно выполненные парапеты крыши имеют ещё и эстетическую, декоративную функцию.'
-        - service:
-            name: 'Металлические откосы'
-            price: 'от 400 ₽ за 1м²'
-            caption: 'Назначение откосов – создать плотное герметичное примыкание простенка к оконному блоку, защитив место стыка от продувания ветром, попадания дождя и снега.'
+            title: 'Другое'
+            description: 'Другие изделия из листового металла'
+            list:
+                - item:
+                    name: 'Грядки и клумбы'
+                    link: '/drugoe/gryadki-i-klumby'
+                - item:
+                    name: 'Кормушки для птиц и белок'
+                    link: '/drugoe/kormushki-dlya-ptits-i-belok'
     caption2: 'Помимо представленных услуг, мы занимаемся производством изделий из листового металла по индивидуальным заказам. Для каждого заказа стоимость расчитывается индивидуально.'
 map:
     header: 'Контакты'
@@ -96,8 +119,4 @@ examples:
             price: '1 000 ₽'
             caption: 'Производство, установка'
             image: 'example3.jpg'
-form:
-    header: 'Оставьте заявку'
-    paragraphs:
-        - paragraph: 'Чтобы оставить заявку, оставьте свои данные и описание необходимых услуг в форме ниже. Мы обязательно позвоним в ближайшее время.'
 ---

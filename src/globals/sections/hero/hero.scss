@@ -4,11 +4,12 @@
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  background: none;
 
   //Overlay
   &:before {
     content: '';
-    display: block;
+    display: none;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -33,7 +34,7 @@
 
     .content { max-width: $max-width; margin-bottom: 0;
 
-      * {color: $color-white !important;}
+      * {color: $color-dark;}
     }
 
     .button { margin-top: $pad-vert}

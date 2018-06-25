@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Iodine Project</title>
+	<title>Гибка горелово</title>
 	<base href="/">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
 			<% include ./../globals/blocks/header/header.html %>
 
 			<!-- MAIN -->
-			<main>
+			<main class="index">
 
 				<%- include('./../globals/sections/hero/big-hero.html', {
 					image:  big_hero.image,
@@ -60,8 +60,7 @@
 				<%- include('./index/map/map.html', {data: data}) %>
 
 				<!-- Form -->
-				<% data = form %>
-				<%- include('./index/form/form.html', {data: data}) %>
+				<%- include('./index/form/form.html') %>
 
 			</main>
 	</div>

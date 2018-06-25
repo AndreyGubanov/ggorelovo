@@ -8,24 +8,27 @@
             <p><%- data.caption %></p>
         </header>
 
-        <h3 class="subheader"><%-data.subheader %></h3>
-
-        <div class="ui stackable doubling grid two columns">
+        <div class="segments">
             <% for (var i=0; i<data.services.length; i++) { %>
 
-            <div class='column'>
-                <figure class="toggle">
-                    <div class="arrow"></div>
-                    <figcaption>
-                        <h3><%- data.services[i].service.name %></h3>
-                        <strong><%- data.services[i].service.price %></strong>
-                        <p><%- data.services[i].service.caption%></p>
-                    </figcaption>
-                </figure>
-            </div>
+                <div class="segment">
+                    <h3><%- data.services[i].service.title %></h3>
+                    <p><%- data.services[i].service.description %></p>
+
+                    <ul>
+                        <% for (var j=0; j<data.services[i].service.list.length; j++){%>
+                            <li>
+                                <a class="link" href="<%- data.services[i].service.list[j].item.link%>">
+                                    <%- data.services[i].service.list[j].item.name%>
+                                </a>
+                            </li>
+                        <% } %>
+                    </ul>
+                </div>
 
             <% } %>
         </div>
+
 
         <p><%- data.caption2 %></p>
         <a class="ui button" href="#Form"> Оставить заявку</a>

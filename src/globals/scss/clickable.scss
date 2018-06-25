@@ -16,7 +16,7 @@ a.link {
   font-weight: 400;
   transition: $default-transition !important;
 
-  &:hover { cursor: pointer; opacity: 1; color: white; }
+  &:hover { cursor: pointer; opacity: 1; color: inherit; }
   &.underlined { text-decoration: underline; }
 
   //Colors
@@ -29,6 +29,14 @@ a.link {
     opacity: .33;
   }
 
+}
 
+.breadcrumbs {
+  position: absolute;
+  top: 9.2rem;
+  width: 100%;
 
+  span {   opacity: 0.66;  }
+
+  a {color: inherit !important;}
 }

@@ -6,7 +6,22 @@
 @import '/examples/examples.scss';
 @import './title-screen/title-screen.scss';
 
-.big-hero {
-  background: url('/assets/img/bg2.png');
-  background-size: cover;
+.index {
+  .big-hero {
+    background: url('/assets/img/bg2.png');
+    background-size: cover;
+
+    &:before {
+      display: block;
+    }
+
+    .ui.container {
+      .content {
+        * {
+          color : white !important;
+        }
+      }
+    }
+  }
+
 }
