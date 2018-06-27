@@ -7,13 +7,13 @@ services:
     - service:
         title: 'Планки'
         caption: 'Основной материал для строительства заборов'
-        link: '/metallokonstruktsii-dlya-zabora/planki'
+        link: '/metallokonstruktsii-dlya-zabora/planki-dlya-zabora'
     - service:
         title: 'Колпаки'
         caption: 'Декоративные навершия для заборных перегородок'
-        link: '/metallokonstruktsii-dlya-zabora/kolpaki'
+        link: '/metallokonstruktsii-dlya-zabora/kolpaki-dlya-zabora'
     - service:
         title: 'Парапеты'
         caption: 'Декоративные элементы для верхних частей забора'
-        link: '/metallokonstruktsii-dlya-zabora/planki'
+        link: '/metallokonstruktsii-dlya-zabora/parapety-dlya-zabora'
 ---

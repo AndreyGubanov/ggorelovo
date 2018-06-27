@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Item</title>
+    <title><%- subcategory %></title>
     <base href="/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/item.js"></script>
 
     <% if (__ENV__ == 'production') { %>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
@@ -34,13 +34,31 @@
 
     <!-- MAIN -->
     <main>
-        <section class="page-section">
-            <h1>ITEM</h1>
+        <%- include('./../globals/sections/hero/big-hero.html', {
+            header: item,
+            caption: caption
+        }); %>
 
-            <!-- Form -->
-            <%- include('./index/form/form.html') %>
+        <!-- Breadcrumbs -->
+        <%- include('./item/breadcrumbs/breadcrumbs.html',{
+            subcategory: subcategory,
+            subcategory_link: subcategory_link,
+            item: item
+        }) %>
 
-        </section>
+        <%- include('./item/item-content/item-content.html', {
+            price: item_info.price,
+            time_production: item_info.time_production,
+            time_installment: item_info.time_installment,
+            content: content
+        }); %>
+
+        <!-- MAP -->
+        <%- include('./index/map/map.html') %>
+
+        <!-- Form -->
+        <%- include('./index/form/form.html') %>
+
 
     </main>
 </div>

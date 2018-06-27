@@ -1,0 +1,10 @@
+@import '~styles/all.scss';
+
+@import './../index/form/form.scss';
+@import './../index/map/map.scss';
+@import './item-content/item-content.scss';
+
+.hero {
+  padding-bottom: 0;
+  border-bottom: 0;
+}

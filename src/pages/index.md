@@ -51,13 +51,13 @@ production:
             list:
                 - item:
                     name: 'Планки'
-                    link: '/metallokonstuktsii-dlya-zabora/planki-dlya-zabora'
+                    link: '/metallokonstruktsii-dlya-zabora/planki-dlya-zabora'
                 - item:
                     name: 'Колпаки'
-                    link: '/metallokonstuktsii-dlya-zabora/kolpaki-dlya-zabora'
+                    link: '/metallokonstruktsii-dlya-zabora/kolpaki-dlya-zabora'
                 - item:
                     name: 'Парапеты'
-                    link: '/metallokonstuktsii-dlya-zabora/parapety-dlya-zabora'
+                    link: '/metallokonstruktsii-dlya-zabora/parapety-dlya-zabora'
         - service:
             title: 'Вентиляция и дымоход'
             description: 'Изделия для отвода дыма и вентиляции'

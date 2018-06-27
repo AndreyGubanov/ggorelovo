@@ -1,0 +1,31 @@
+<section class="page-section item-content">
+    <div class="ui container">
+        <div class="info">
+            <p class="bold"><span>Цена: </span><%- price %></p>
+            <p class="bold"><span>Время производства: </span><%- time_production %></p>
+            <p class="bold"><span>Время установки: </span><%- time_installment %></p>
+        </div>
+        <div class="content">
+            <% content.forEach(function(item) {%>
+
+                <% if (item.paragraph) { %>
+                    <p><%- item.paragraph %></p>
+                <% } %>
+
+                <% if (item.image) { %>
+                    <img class="ui image" src="/assets/img/<%- item.image %>">
+                <% } %>
+
+                <% if (item.list) { %>
+                <ul>
+                    <% item.list.forEach(function(item) {%>
+                        <li><p><%- item.item %></p></li>
+                    <% }); %>
+                </ul>
+                <% } %>
+
+            <% }); %>
+
+        </div>
+    </div>
+</section>
