@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/subcategory.js"></script>
 
     <% if (__ENV__ == 'production') { %>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
@@ -41,11 +41,14 @@
 
         <!-- Breadcrumbs -->
         <%- include('./subcategory/breadcrumbs/breadcrumbs.html',{
-            subcategory: subcategory
-        }) %>
+            subcategory: subcategory }) %>
 
         <!-- Services -->
-        <%- include('./subcategory/services/services.html') %>
+        <% data = services %>
+        <%- include('./subcategory/services/services.html', {data: services})%>
+
+        <!-- MAP -->
+        <%- include('./index/map/map.html') %>
 
         <!-- Form -->
         <%- include('./index/form/form.html') %>

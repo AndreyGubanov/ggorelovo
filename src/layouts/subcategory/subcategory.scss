@@ -1,3 +1,10 @@
 @import '~styles/all.scss';
 
 @import './services/services.scss';
+@import './../index/form/form.scss';
+@import './../index/map/map.scss';
+
+
+.hero {
+  background-color: $color-white;
+}

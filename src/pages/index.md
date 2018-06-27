@@ -58,9 +58,6 @@ production:
                 - item:
                     name: 'Парапеты'
                     link: '/metallokonstuktsii-dlya-zabora/parapety-dlya-zabora'
-                - item:
-                    name: 'Штакетник'
-                    link: '/metallokonstuktsii-dlya-zabora/shtaketnyk-dlya-zabora'
         - service:
             title: 'Вентиляция и дымоход'
             description: 'Изделия для отвода дыма и вентиляции'
@@ -89,14 +86,14 @@ production:
                     link: '/myagkaya-krovlya-i-saiding/planki-dlya-myagkoy-krovli'
         - service:
             title: 'Другое'
-            description: 'Другие изделия из листового металла'
+            description: 'Цельные изделя из листового металла различного назначения'
             list:
                 - item:
                     name: 'Грядки и клумбы'
                     link: '/drugoe/gryadki-i-klumby'
                 - item:
                     name: 'Кормушки для птиц и белок'
-                    link: '/drugoe/kormushki-dlya-ptits-i-belok'
+                    link: '/drugoe/kormushki'
     caption2: 'Помимо представленных услуг, мы занимаемся производством изделий из листового металла по индивидуальным заказам. Для каждого заказа стоимость расчитывается индивидуально.'
 map:
     header: 'Контакты'

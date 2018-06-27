@@ -1,22 +1,12 @@
-<% if (data) { %>
 <section class="page-section map">
     <div class="ui container">
 
         <header class="content">
-            <h2><%- data.header%></h2>
+            <h2>Контакты</h2>
             <p><span>Адрес:</span><span><%- site.address %></span></p>
             <p><span>Время работы:</span><span>с 9:00 до 21:00 без выходных</span></p>
             <p><span>Email:</span><span><%- site.email %></span></p>
-            <div class="phone">
-                <p><span>Телефон:</span><span><%- site.phone %></span></p>
-
-
-                <div class="social">
-                    <i class="phone icon"></i>
-                    <i class="whatsapp icon"></i>
-                    <i class="telegram icon"></i>
-                </div>
-            </div>
+            <p><span>Телефон:</span><span><%- site.phone %></span></p>
 
 
         </header>
@@ -44,5 +34,3 @@
     </script>
 
 </section>
-
-<% } %>

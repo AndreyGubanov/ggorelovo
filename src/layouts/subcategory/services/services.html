@@ -1,5 +1,31 @@
-<section class="page-section">
+<% if (data) { %>
+
+<section class="page-section sub-services">
     <div class="ui container">
-        <h1>SERVICES</h1>
+        <header>
+            <h2>Услуги</h2>
+        </header>
+        <div class="content">
+
+            <!-- Features-->
+            <div class="ui three column relaxed stackable grid">
+                <% data.forEach(function(item) {%>
+                <div class="column">
+
+                    <div class="service-content">
+                        <h3>
+                            <%- item.service.title %>
+                        </h3>
+                        <p> <%- item.service.caption %> </p>
+                        <a class="link" href="<%- item.service.link %>">Перейти →</a>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
+
+            <p>Помимо представленных услуг, мы занимаемся производством изделий из листового металла по индивидуальным заказам. Для каждого заказа стоимость расчитывается индивидуально.</p>
+
+        </div>
     </div>
 </section>
+<% } %>

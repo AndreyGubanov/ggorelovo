@@ -1,0 +1,33 @@
+.sub-services {
+
+    .grid  { margin-bottom: $pad-vert*2; }
+    header {
+      margin-bottom: $pad-vert*2;
+    }
+
+    .service-content {
+      background-color: $color-white;
+      padding: 2.2rem;
+      border-radius: 0.2rem;
+      box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+      border-left: 0.2rem solid rgba(255,255,255,0);
+      transition: $default-transition;
+
+      &:hover {
+        border-left: 0.2rem solid $color-accent;
+      }
+    }
+
+
+    .link {
+      color: $color-accent;
+      opacity: 1;
+
+      &:hover {
+        opacity: .66;
+      }
+    }
+
+    p {max-width: 640px;}
+
+}
