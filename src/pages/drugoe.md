@@ -11,5 +11,5 @@ services:
     - service:
         title: 'Грядки и клумбы'
         caption: 'Металлические контейнеры для растений'
-        link: 'drugoe/kormushki'
+        link: 'drugoe/gryadki-i-klumby'
 ---
