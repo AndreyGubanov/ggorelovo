@@ -5,9 +5,9 @@ subcategory: 'Металлоконструкции для забора'
 caption: 'Материалы для строительства заборов'
 services:
     - service:
-        title: 'Планки'
+        title: 'Штакетник'
         caption: 'Основной материал для строительства заборов'
-        link: '/metallokonstruktsii-dlya-zabora/planki-dlya-zabora'
+        link: '/metallokonstruktsii-dlya-zabora/shtaketnik'
     - service:
         title: 'Колпаки'
         caption: 'Декоративные навершия для заборных перегородок'

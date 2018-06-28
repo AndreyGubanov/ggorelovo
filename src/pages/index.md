@@ -37,9 +37,6 @@ production:
                     name: 'Фасонные элементы'
                     link: '/dobornye-elementy/fasonnye-elementy'
                 - item:
-                    name: 'Гибка металла'
-                    link: '/dobornye-elementy/gibka-metalla'
-                - item:
                     name: 'Парапеты'
                     link: '/dobornye-elementy/parapety'
                 - item:
@@ -50,8 +47,8 @@ production:
             description: 'Материалы для строительства заборов'
             list:
                 - item:
-                    name: 'Планки'
-                    link: '/metallokonstruktsii-dlya-zabora/planki-dlya-zabora'
+                    name: 'Штакетник'
+                    link: '/metallokonstruktsii-dlya-zabora/shtaketnik'
                 - item:
                     name: 'Колпаки'
                     link: '/metallokonstruktsii-dlya-zabora/kolpaki-dlya-zabora'
@@ -66,9 +63,6 @@ production:
                     name: 'Вытяжные зонты'
                     link: '/ventilyatsiya-i-dymohod/vytyazhnye-zonty'
                 - item:
-                    name: 'Выход вентиляции'
-                    link: '/ventilyatsiya-i-dymohod/vyhod-ventilyatsii'
-                - item:
                     name: 'Дымник (колпак на трубу)'
                     link: '/ventilyatsiya-i-dymohod/dymnik'
         - service:
@@ -76,24 +70,21 @@ production:
             description: 'Структурные элементы кровли и внешняя облицовка строений'
             list:
                 - item:
-                    name: 'Т-образные планки'
-                    link: '/myagkaya-krovlya-i-saiding/t-obraznye-planki'
-                - item:
-                    name: 'X-образные планки'
-                    link: '/myagkaya-krovlya-i-saiding/x-obraznye-planki'
-                - item:
                     name: 'Планки для мягкой кровли'
                     link: '/myagkaya-krovlya-i-saiding/planki-dlya-myagkoy-krovli'
+                - item:
+                    name: 'Планки для сайдинга'
+                    link: '/myagkaya-krovlya-i-saiding/planki-dlya-saidinga'
         - service:
-            title: 'Другое'
-            description: 'Цельные изделя из листового металла различного назначения'
+            title: 'Садовые изделия'
+            description: 'Изделия из листового металла для сада и огорода'
             list:
                 - item:
                     name: 'Грядки и клумбы'
-                    link: '/drugoe/gryadki-i-klumby'
+                    link: '/sadovye-izdeliya/gryadki-i-klumby'
                 - item:
                     name: 'Кормушки для птиц и белок'
-                    link: '/drugoe/kormushki'
+                    link: '/sadovye-izdeliya/kormushki'
     caption2: 'Помимо представленных услуг, мы занимаемся производством изделий из листового металла по индивидуальным заказам. Для каждого заказа стоимость расчитывается индивидуально.'
 map:
     header: 'Контакты'

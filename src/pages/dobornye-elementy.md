@@ -13,10 +13,6 @@ services:
         caption: 'Изделия, используемые для отделки фасадов зданий'
         link: '/dobornye-elementy/fasonnye-elementy'
     - service:
-        title: 'Гибка металла'
-        caption: 'Индивидуальные конструкции из листового металла'
-        link: '/dobornye-elementy/gibka-metalla'
-    - service:
         title: 'Парапеты'
         caption: 'Ограждения, разделители разных вертикальных уровней'
         link: '/dobornye-elementy/parapety'

@@ -1,15 +1,15 @@
 ---
 title: Iodine Project
 layout: subcategory.html
-subcategory: 'Другое'
-caption: 'Цельные изделя из листового металла различного назначения'
+subcategory: 'Садовые изделия'
+caption: 'Изделия из листового металла для сада и огорода'
 services:
     - service:
         title: 'Кормушки для птиц и белок'
         caption: 'Цельные конструкции для кормления животных'
-        link: 'drugoe/kormushki'
+        link: 'sadovye-izdeliya/kormushki'
     - service:
         title: 'Грядки и клумбы'
         caption: 'Металлические контейнеры для растений'
-        link: 'drugoe/gryadki-i-klumby'
+        link: 'sadovye-izdeliya/gryadki-i-klumby'
 ---

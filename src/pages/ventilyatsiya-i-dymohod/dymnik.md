@@ -4,7 +4,7 @@ layout: item.html
 item: 'Дымник'
 subcategory: 'Вентиляция и дымоход'
 caption: 'Декоративные колпаки для трубы'
-subcategory_link: '/dobornye-elementy'
+subcategory_link: '/ventilyatsiya-i-dymohod'
 item_info:
     price: 'от 1 000 ₽ за шт'
     time_production: '1 день'

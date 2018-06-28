@@ -4,7 +4,7 @@ layout: item.html
 item: 'Вытяжные зонты'
 subcategory: 'Вентиляция и дымоход'
 caption: 'Внутренние воздухозаборники для вентиляции'
-subcategory_link: '/dobornye-elementy'
+subcategory_link: '/ventilyatsiya-i-dymohod'
 item_info:
     price: 'от 1 000 ₽ за шт'
     time_production: '1 день'

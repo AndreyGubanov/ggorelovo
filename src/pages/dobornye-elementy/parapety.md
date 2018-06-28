@@ -6,9 +6,8 @@ subcategory: 'Доборные элементы'
 caption: 'Ограждения, разделители разных вертикальных уровней'
 subcategory_link: '/dobornye-elementy'
 item_info:
-    price: 'от 1000 ₽ за 1м²'
-    time_production: '1 день'
-    time_installment: 'от 2 часов'
+    price: 'от 500 ₽ за 1м²'
+    time_production: 'от 2 часов'
 content:
     - paragraph: 'Парапеты кровли и лоджии предназначены для защиты кирпичной кладки от дождя и снега. Кроме того, качественно выполненные парапеты крыши имеют ещё и эстетическую, декоративную функцию.'
     - image: '/services/parapet.jpg'
