@@ -34,7 +34,30 @@ p.small   { font-size: 1.2rem; }
 
 
 // Fonts
-@include font-face(AvenirNextW1G, './../../assets/fonts/AvenirNextW1G-Light',    300, normal, woff);
-@include font-face(AvenirNextW1G, './../../assets/fonts/AvenirNextW1G-Regular',  400, normal, woff);
-@include font-face(AvenirNextW1G, './../../assets/fonts/AvenirNextW1G-Medium',   500, normal, woff);
-@include font-face(AvenirNextW1G, './../../assets/fonts/AvenirNextW1G-Demi',     600, normal, woff);
+@font-face {
+  font-family: 'AvenirNextW1G';
+  src: url('/assets/fonts/AvenirNextW1G-Light.woff') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextW1G';
+  src: url('/assets/fonts/AvenirNextW1G-Regular.woff') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextW1G';
+  src: url('/assets/fonts/AvenirNextW1G-Medium.woff') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextW1G';
+  src: url('/assets/fonts/AvenirNextW1G-Demi.woff') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}

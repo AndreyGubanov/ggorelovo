@@ -21,10 +21,8 @@ $(document).ready(function () {
 
                 event.preventDefault();
                 var hash = this.hash;
-                var height = $('#pageHeader').outerHeight();
 
                 $('html, body').animate({
-                    // scrollTop: $(hash).offset().top-height
                     scrollTop: $(hash).offset().top
                 }, 800, function(){
 

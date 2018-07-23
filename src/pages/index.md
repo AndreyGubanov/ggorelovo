@@ -96,7 +96,7 @@ examples:
             title: 'Дымник'
             price: '8 000 ₽'
             caption: 'Полный цикл производства, изготовление и доставка'
-            image: 'example1.jpg'
+            image: 'example1.jpeg'
         - example:
             title: 'Отливы'
             price: '200 ₽ за 1 шт.'
