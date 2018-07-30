@@ -94,12 +94,18 @@ examples:
     examples:
         - example:
             title: 'Дымник'
-            price: '8 000 ₽'
-            caption: 'Полный цикл производства, изготовление и доставка'
+            caption: 'Полный цикл производства, изготовление и доставка.'
             image: 'example1.jpeg'
         - example:
             title: 'Отливы'
-            price: '200 ₽ за 1 шт.'
-            caption: 'Полный цикл производства, изготовление и доставка'
+            caption: 'Полный цикл производства, изготовление и доставка.'
             image: 'example3.jpg'
+        - example:
+            title: 'Дымник'
+            caption: 'Дымник на трубу. Изготовление, отправление.'
+            image: 'dymnik2.jpeg'
+        - example:
+            title: 'Колпаки'
+            caption: 'Набор колпаков для забора с отливом. Изготовление, упаковка, отправление.'
+            image: 'kolpaki-na-zabor.jpeg'
 ---
