@@ -26,6 +26,17 @@
     h4, small { color: white }
     h4 { margin-bottom: 0.2rem; }
     small { opacity: .75 }
+
+    @media screen and (max-width: 580px) {
+      padding-right: 0;
+    }
+    
+    a > div {
+      @media screen and (max-width: 580px) {
+        display: none;
+      }
+    }
+
   }
 
   //Navigation
@@ -54,9 +65,9 @@
   .phone-number {
     //border-right: 0.1rem solid #111c21;
     //padding-right: 2.4rem;
-    @media screen and (max-width: 580px) {
-      display: none;
-    }
+    //@media screen and (max-width: 580px) {
+    //  display: none;
+    //}
 
     strong { color: white; transition: $default-transition; letter-spacing: 0.06rem}
 
